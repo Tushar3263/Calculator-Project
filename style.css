@@ -12,7 +12,6 @@ html {
 }
 
 body {
-    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -26,14 +25,13 @@ body {
     border-radius: 1rem; /* 16px = 1rem */
     background: transparent;
     box-shadow: 0 0.1875rem 0.9375rem rgba(113,115,119,0.5); /* 3px 15px */
-    width: 100%;
+    /* width: 100%; */
     max-width: 400px;
 }
 
 input {
     width: 100%;
-    padding: 1.5rem; /* 24px = 1.5rem */
-    margin: 0.625rem; /* 10px = 0.625rem */
+    padding: 1rem;  
     background: transparent;
     box-shadow: 0 0.1875rem 0.9375rem rgba(84,84,84,0.1); /* 3px 15px */
     font-size: 2.5rem; /* 40px = 2.5rem */
@@ -80,38 +78,10 @@ button {
 
 
 @media only screen and (max-width: 768px) {
-    body {
-        padding: 1rem; /* Add padding for mobile */
-    }
-
-    .calculator {
-        padding-right: 3rem; /* Adjust padding for smaller screens */
-        max-width: 60%; /* Ensure the calculator uses full width on mobile */
-    }
-
-    input {
-        font-size: 1.875rem; /* 30px for smaller screens */
-        padding: 1rem; /* Smaller padding on mobile */
-    }
     
-    button {
-        width: 3.125rem; /* 50px = 3.125rem for mobile */
-        height: 3.125rem; /* 50px */
-        font-size: 1.125rem; /* 18px */
-        margin-left: 1.8rem;
-    }
 }
 
 /* Media query for smaller mobile screens */
 @media only screen and (max-width: 480px) {
-    input {
-        font-size: 1.5rem; /* Reduce font size on very small screens */
-        padding: 0.875rem; /* Smaller padding */
-    }
-
-    button {
-        width: 2.75rem; /* Smaller buttons for small screens */
-        height: 2.75rem;
-        font-size: 1rem;
-    }
+    
 }
