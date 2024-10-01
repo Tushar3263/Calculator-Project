@@ -132,10 +132,10 @@ button {
     
    
 }
-@media (max-width:600px){
+@media (max-width:480px){
 
     .calculator{
-        max-width: 65%;
+        max-width: 80%;
     }
     button {
         margin-left: 0.7rem;
