@@ -8,7 +8,7 @@
 }
 
 html {
-    font-size: 16px; /* Base font size */
+    font-size: 16px;
 }
 
 body {
@@ -20,27 +20,26 @@ body {
 }
 
 .calculator {
-    border: 0.0625rem solid #717377; /* 1px = 0.0625rem */
-    padding: 1.25rem; /* 20px = 1.25rem */
-    border-radius: 1rem; /* 16px = 1rem */
+    border: 0.0625rem solid #717377;
+    padding: 1.25rem;
+    border-radius: 1rem;
     background: transparent;
-    box-shadow: 0 0.1875rem 0.9375rem rgba(113,115,119,0.5); /* 3px 15px */
-    /* width: 100%; */
-    max-width: 400px;
+    box-shadow: 0 0.1875rem 0.9375rem rgba(113, 115, 119, 0.5);
+    max-width: 25rem;
 }
 
 input {
     width: 100%;
-    padding: 1rem;  
+    padding: 1rem;
     background: transparent;
-    box-shadow: 0 0.1875rem 0.9375rem rgba(84,84,84,0.1); /* 3px 15px */
-    font-size: 2.5rem; /* 40px = 2.5rem */
+    box-shadow: 0 0.1875rem 0.9375rem rgba(84, 84, 84, 0.1);
+    font-size: 2.5rem;
     text-align: right;
     cursor: pointer;
     color: #ffffff;
     background-color: rgb(34, 66, 66);
-    border-radius: 0.8125rem; /* 13px = 0.8125rem */
-    border: 0.3125rem solid rgb(43,192,184); /* 5px = 0.3125rem */
+    border-radius: 0.8125rem;
+    border: 0.3125rem solid rgb(43, 192, 184);
 }
 
 input::placeholder {
@@ -49,19 +48,19 @@ input::placeholder {
 
 button {
     border: none;
-    width: 3.75rem; /* 60px = 3.75rem */
-    height: 3.75rem; /* 60px = 3.75rem */
-    margin: 0.625rem; /* 10px = 0.625rem */
-    border-radius: 50%; /* 50px radius for circular buttons */
+    width: 3.75rem;
+    height: 3.75rem;
+    margin: 0.625rem;
+    border-radius: 50%;
     background: transparent;
     color: #ffffff;
-    font-size: 1.25rem; /* 20px = 1.25rem */
-    box-shadow: -0.5rem -0.5rem 0.9375rem rgba(255,255,255, 0.1); /* -8px -8px 15px */
+    font-size: 1.25rem;
+    box-shadow: -0.5rem -0.5rem 0.9375rem rgba(255, 255, 255, 0.1);
     cursor: pointer;
 }
 
 .equalbtn {
-    background-color:#fb7c14;
+    background-color: #fb7c14;
 }
 
 .operator {
@@ -70,18 +69,8 @@ button {
 
 .tushar {
     color: #ffffff;
-    font-size: 0.625rem; /* 10px = 0.625rem */
-    margin-top: 0.625rem; /* 10px = 0.625rem */
-    margin-bottom: -0.9375rem; /* -15px = -0.9375rem */
+    font-size: 0.625rem;
+    margin-top: 0.625rem;
+    margin-bottom: -0.9375rem;
     font-style: italic;
-}
-
-
-@media only screen and (max-width: 768px) {
-    
-}
-
-/* Media query for smaller mobile screens */
-@media only screen and (max-width: 480px) {
-    
 }
