@@ -78,12 +78,6 @@ button {
     font-style: italic;
 }
 
-/* Media queries for tablet and mobile responsiveness */
-@media only screen and (max-width: 768px) {
-    
-}
-
-/* Media query for smaller mobile screens */
 
 
 @media (max-width:1200px){
@@ -97,41 +91,11 @@ button {
     }
     input {
         max-width: 95%; 
-    }
-
-
-    
-}
-@media (max-width:991px){
-
-    /* .calculator{
-        max-width: 100%;
-    }
-    button {
-        margin-left: ;
-        font-size: 1.2rem; 
-    }
-    input {
-        max-width: 9%; 
-    } */
-   
+    }   
 }
 
-@media (max-width:768px){
 
-    .calculator{
-        max-width: 65%;
-    }
-    button {
-        margin-left: 2rem;
-        font-size: 1.2rem; 
-    }
-    input {
-        max-width: 95%; 
-    }
-    
-   
-}
+
 @media (max-width:480px){
 
     .calculator{
@@ -146,17 +110,3 @@ button {
     } 
    
 }
-/* @media (max-width:600px){
-
-    .calculator{
-        max-width: 70%;
-    }
-    button {
-        margin-left: 1rem;
-        font-size: 1.2rem; 
-    }
-    input {
-        max-width: 95%; 
-    } 
-   
-} */
