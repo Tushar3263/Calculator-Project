@@ -79,49 +79,39 @@ button {
 }
 
 
-
-@media (max-width:1200px){
-
-    .calculator{
-        max-width: 40%;
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 1rem; /* Add padding for mobile */
     }
-    button {
-        margin-left: 2rem;
-        font-size: 1.2rem; 
+
+    .calculator {
+        padding-right: 3rem; /* Adjust padding for smaller screens */
+        max-width: 60%; /* Ensure the calculator uses full width on mobile */
     }
+
     input {
-        max-width: 95%; 
-    }   
+        font-size: 1.875rem; /* 30px for smaller screens */
+        padding: 1rem; /* Smaller padding on mobile */
+    }
+    
+    button {
+        width: 3.125rem; /* 50px = 3.125rem for mobile */
+        height: 3.125rem; /* 50px */
+        font-size: 1.125rem; /* 18px */
+        margin-left: 1.8rem;
+    }
 }
 
-@media (max-width:768px){
-
-    .calculator{
-        max-width: 70%;
-    }
-    button {
-        margin-left: 2rem;
-        font-size: 1.2rem; 
-    }
+/* Media query for smaller mobile screens */
+@media only screen and (max-width: 480px) {
     input {
-        max-width: 95%; 
-    }   
-}
-
-
-
-@media (max-width:480px){
-
-    .calculator{
-        max-width: 80%;
+        font-size: 1.5rem; /* Reduce font size on very small screens */
+        padding: 0.875rem; /* Smaller padding */
     }
+
     button {
-        margin-left: 0.7rem;
-        font-size: 1.2rem; 
+        width: 2.75rem; /* Smaller buttons for small screens */
+        height: 2.75rem;
+        font-size: 1rem;
     }
-    input {
-        max-width: 95%; 
-    } 
-   
 }
-
