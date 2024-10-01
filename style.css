@@ -143,8 +143,20 @@ button {
     }
     input {
         max-width: 95%; 
+    } 
+   
+}
+@media (max-width:600px){
+
+    .calculator{
+        max-width: 70%;
     }
-    
-    
+    button {
+        margin-left: 1rem;
+        font-size: 1.2rem; 
+    }
+    input {
+        max-width: 95%; 
+    } 
    
 }
