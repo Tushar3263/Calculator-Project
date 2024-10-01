@@ -94,6 +94,20 @@ button {
     }   
 }
 
+@media (max-width:768px){
+
+    .calculator{
+        max-width: 70%;
+    }
+    button {
+        margin-left: 2rem;
+        font-size: 1.2rem; 
+    }
+    input {
+        max-width: 95%; 
+    }   
+}
+
 
 
 @media (max-width:480px){
@@ -110,3 +124,4 @@ button {
     } 
    
 }
+
